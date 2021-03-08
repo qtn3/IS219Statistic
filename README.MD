@@ -1,0 +1,2 @@
+[![Coverage Status](https://coveralls.io/repos/github/qtn3/IS219Statistic/badge.svg?branch=master)](https://coveralls.io/github/qtn3/IS219Statistic?branch=master)
+[![Build Status](https://travis-ci.org/qtn3/IS219Statistic.svg?branch=master)](https://travis-ci.org/qtn3/IS219Statistic)
