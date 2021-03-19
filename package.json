@@ -14,8 +14,14 @@
   "email": "qtn3@njit.edu",
   "license": "ISC",
   "dependencies": {
+    "compute-skewness": "^1.0.1",
     "csv": "^5.3.2",
-    "csv-parse": "^4.15.0"
+    "csv-parse": "^4.15.0",
+    "expect": "^25.5.0",
+    "jstat": "^1.9.4",
+    "mathjs": "^9.3.0",
+    "random": "^3.0.3",
+    "seedrandom": "^3.0.5"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
