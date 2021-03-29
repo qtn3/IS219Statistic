@@ -1,5 +1,5 @@
 const MathOperations = require('./Operations/MathOperations');
-const calculation = require('./Models/Calculation');
+const calculation = require('./Models/Calculations');
 const MeanFunction = require('./Operations/StatisticsFunctions/MeanFunction');
 const MedianFunction = require('./Operations/StatisticsFunctions/MedianFunction');
 const ModeFunction = require('./Operations/StatisticsFunctions/ModeFunction');
@@ -86,11 +86,10 @@ class Calculator {
         Calculator.arr.push(new calculation(arg,PopulationCorrelationFunction));
         return new calculation(arg,PopulationCorrelationFunction).GetResults();
     }
-    static ZScoreFunction(arg) {
-        if(!CheckEmpty(arg) || !String(arg))
+    static ZScoreFunction(a, b, c) {
+        if(!CheckEmpty(a, b, c))
         {return false;}
-        Calculator.arr.push(new calculation(arg,ZScoreFunction));
-        return new calculation(arg,ZScoreFunction).GetResults();
+        return ZScoreFunction(a, b, c);
     }
     static MeanAbsoluteDeviation(arg) {
         if(!CheckEmpty(arg) || !String(arg))
